@@ -12,22 +12,40 @@ body{
 	font-family: 'Times New Roman', Times, serif;
 }
 
-a{
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+a{	
 	text-decoration: none;
 	transition: all.6s ease;
 	-moz-transition all.6s ease;
 	-webkit-transition all.6s ease;
 	-ms-transition all.6s ease;
 }
+a:hover{
+	text-decoration: underline;
+}
+
 header{
 	position: absolute;	
 	height: 100px;
 	width: 100%;
-	background-color: #FAFFFD;
-	/*position: relative;*/
-	/*float: left;*/
+	background-color: #e8f7ef;
 }
 
+header h1{
+	/*width: 40%;
+	margin: 0 auto;*/
+	text-align: center;
+	margin-top: 20px;
+	color: rgb(19,23,25);
+	font-size: 3em;
+}
 
 /*Навигация по сайту*/
 .navigation{
@@ -35,20 +53,30 @@ header{
 	margin-top: 100px;
 	width: 100%;
 	height: 50px;
-	background-color: #78DEA4;
+	background-color: #2a4837;
+	box-shadow: 0 3px 3px rgba(19,23,25,.75);
 }
-.navigation ul{
-	padding-left: 35%;
 
+.navigation .left{
+	margin-left: 10px;
 }
+.navigation .right{
+	margin-right: 10px;
+}
+
+/*.navigation ul{	
+
+}*/
 li{
 	float: left;
 	list-style-type: none;
-	padding: 10px;
+	padding: 10px 20px;
 }
 .navigation a{
-	font-size: 1.1em;
+	font-size: 1.2em;
+	color: #e8f7ef;
 }
+
 
 /*Главный блок*/
 .wrapper{
@@ -80,8 +108,8 @@ footer{
 	width: 100%;
 	height: 50px; /* высота футера */
 	/*margin-top: -51px;  верхнее отрицательное поле */
-	background-color: #FAFFFD;
-	border-top: 2px solid #01021e;
+	background-color: #e8f7ef;
+	border-top: 2px solid rgb(19,23,25);
 	
 }
 
