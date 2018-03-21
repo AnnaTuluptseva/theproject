@@ -9,22 +9,24 @@
 
 <div class="wrapper">
 
-	<div class="content">
+	
 	<?php
 	include_once 'main/header.php';
 	include_once 'main/navigation.php';
-?>
+	?>
+	<div class="clear"></div>
+	<div class="content">
 		<div>
-			Hello!
+			Добро пожаловать в систму контроля процесса обучения!
 		</div>
 		<div>
 			Hello!
 		</div>
 	</div>
-	
-<?php
+	<div class="clear"></div>
+	<?php
 	include_once 'main/footer.php';
-?>
+	?>
 </div>
 
 </body>

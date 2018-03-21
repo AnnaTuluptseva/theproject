@@ -3,16 +3,27 @@
 	padding: 0;
 }
 html{
-	height: 100%;
-	background-color: #F8E0F1;
-	background-image: url(img/main_bg.png);
+	height: 100%;	
+	/*background-image: url(img/main_bg.png);*/
 }
 body{
-	width: 80%;
-	padding: 20px;
-	margin:0 auto;
+	background-color: #D9FAE7;
+	height: 100%;	
+	font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+	text-decoration: none;
+	transition: all.6s ease;
+	-moz-transition all.6s ease;
+	-webkit-transition all.6s ease;
+	-ms-transition all.6s ease;
 }
 header{
+	position: absolute;	
+	height: 100px;
+	width: 100%;
+	background-color: #FAFFFD;
 	/*position: relative;*/
 	/*float: left;*/
 }
@@ -20,23 +31,37 @@ header{
 
 /*Навигация по сайту*/
 .navigation{
-	/*position: absolute;*/
-	
+	position: absolute;	
+	margin-top: 100px;
+	width: 100%;
+	height: 50px;
+	background-color: #78DEA4;
+}
+.navigation ul{
+	padding-left: 35%;
+
 }
 li{
 	float: left;
 	list-style-type: none;
 	padding: 10px;
 }
+.navigation a{
+	font-size: 1.1em;
+}
 
 /*Главный блок*/
 .wrapper{
-	float: left;
+	/*float: left;*/
 	position: relative;
     min-height: 100%;
+    height: auto !important; /* для всех браузеров (можно убрать, если поддержка IE6 не нужна) */
+    height: 100%; /* для IE6, т.к. он понимает height, как min-height */
 }
 .content{
-	float: left;
+	position: absolute;
+	margin-top: 150px;
+	padding-top: 10px;
    	padding-bottom: 90px;
 }
 /*.wrapper:after{
@@ -46,16 +71,22 @@ li{
 }*/
 
 /* Подвал сайта*/
-.wrapper footer{
-	float: left;
+.clear {
+    clear: both; /* прерывание обтекания */
+}
+footer{	
 	position: absolute;
-    left: 0;
     bottom: 0;
 	width: 100%;
-	height: 90px;
-	/*background: #01021e;*/
+	height: 50px; /* высота футера */
+	/*margin-top: -51px;  верхнее отрицательное поле */
+	background-color: #FAFFFD;
 	border-top: 2px solid #01021e;
 	
+}
+
+footer p{
+	margin-top: 10px;
 }
 
 /*Открытие окна "Вход и регистрация"*/

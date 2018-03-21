@@ -4,6 +4,5 @@
 		<li><a href="#">О нас</a></li>
 		<li><a href="#">Контакты</a></li>
 		<li><a href="login.php" class="lgrg">Войти/Регистрация</a></li>
-	</ul>	
-	
+	</ul>		
 </div>

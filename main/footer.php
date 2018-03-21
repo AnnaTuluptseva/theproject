@@ -1,5 +1,5 @@
 <footer>
 	<center>
-		This project is a diploma work of Anna Tuluptseva.		
+		<p>This project is made by Anna Tuluptseva.</p>		
 	</center>
 </footer>
