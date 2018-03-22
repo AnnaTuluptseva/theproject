@@ -8,6 +8,7 @@ html{
 }
 body{
 	background-color: #D9FAE7;
+	background: url(../img/leaves.png);
 	height: 100%;	
 	font-family: 'Times New Roman', Times, serif;
 }
@@ -86,12 +87,21 @@ li{
     height: auto !important; /* для всех браузеров (можно убрать, если поддержка IE6 не нужна) */
     height: 100%; /* для IE6, т.к. он понимает height, как min-height */
 }
-.content{
-	position: absolute;
+.content{	
 	margin-top: 150px;
+	margin-bottom: 52px;	
 	padding-top: 10px;
-   	padding-bottom: 90px;
+	padding-bottom: 10px;
+   	width: 100%;
+   	min-height: 100%;
+   	height: 100%;
+   	float: left;
+   	
 }
+/*.content p{
+	float: left;
+}*/
+
 /*.wrapper:after{
 	content: "";
 	display: block;

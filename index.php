@@ -22,6 +22,7 @@
 		<div>
 			Hello!
 		</div>
+		
 	</div>
 	<div class="clear"></div>
 	<?php
