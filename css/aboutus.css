@@ -1,0 +1,11 @@
+.content h1{
+	text-align: center;
+}
+.content p{
+	margin: 10px 0;
+	font-size: 1.1em;	
+}
+.content span{
+	font-weight: bold;
+	font-size: 1.1em;
+}

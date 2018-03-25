@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Главная</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/contacts.css">
 </head>
 <body>
 
@@ -17,13 +17,9 @@
 	?>
 	<div class="clear"></div>
 	<div class="content">
-		<p class="greeting">
-			Добро пожаловать в систему контроля процесса обучения!
-		</p>
-		<div class="frontpic">
-			<span class="left"> <img src="img/frontpic1.jpg" ></span>
-			<span class="right"> <img src="img/frontpic2.jpg" ></span>
-		</div>
+		<h1>Контакты</h1>
+		<p>Телефон: +79155166361</p>
+		<p>Email: anya.tul@yandex.ru </p>
 		
 	</div>
 	<div class="clear"></div>

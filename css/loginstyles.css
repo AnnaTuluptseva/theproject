@@ -1,4 +1,27 @@
 /*Стили регистрации*/
 .container{
-	position: absolute;
+	position: relative;
+	margin-left: 30%;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding: 20px 0;
+	width: 40%;
+	border:2px solid rgb(19,23,25);
+	border-radius: 4px;
+	box-shadow: 4px 4px 6px rgba(19,23,25,.75);
+	color: rgb(19,23,25);
+	/*background: #d9fae7;*/ /*url(../img/container.png);*/
+	background-image: url(../img/container.png);
+}
+.container a{
+	color: rgb(19,23,25);
+}
+.container p,h1{
+	margin: 10px 0;
+	text-align: center;
+}
+
+.container input{
+	padding: 5px;
+	width: 60%;
 }

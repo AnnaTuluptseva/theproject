@@ -7,17 +7,15 @@
 	<link rel="stylesheet" type="text/css" href="css/loginstyles.css">
 </head>
 <body>
-
 <div class="wrapper">
-
-	
-	<?php
+<?php
 	include_once 'main/header.php';
 	include_once 'main/navigation.php';
-	?>
-	<div class="clear"></div>
-	<div class="content">
-	<section class="container">
+?>
+<div class="clear"></div>
+<div class="content">
+<section class="container">
+	<div class="login" align="center">
     <h1>Регистрация</h1>
 	<form action="" method="post">
 		<p><input type="text" name="email" class="email" value="<?=$fields['email'];?>"  placeholder="email"></p>
@@ -32,15 +30,14 @@
 		<p class="submit-1"><input type="submit" name="submit" class="btn-submit" value="Зарегистрироваться"></p>
 		
       </form>
-	<p class="remember_me "><a href="index.php">На главную страницу</a>.</p>
-	</section>
-		
-	</div>
-	<div class="clear"></div>
-	<?php
-	include_once 'main/footer.php';
-	?>
+    </div>
+	<div align="center"><p class="remember_me "><a href="index.php">На главную страницу</a>.</p></div>
+</section>
 </div>
-
+<div id="clear"></div>
+<?php
+	include_once 'main/footer.php';
+?>
+</div>
 </body>
 </html>

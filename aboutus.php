@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Главная</title>
+	<title>О нас</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/aboutus.css">
 </head>
 <body>
 
@@ -17,13 +17,12 @@
 	?>
 	<div class="clear"></div>
 	<div class="content">
-		<p class="greeting">
-			Добро пожаловать в систему контроля процесса обучения!
+		<h1>
+			О наc
+		</h1>
+		<p>
+			<span>STUDY CONTROL</span> - приложение для контроля процесса обучения. Это новый проект, который ждет великое будущее. Оно поможет вам достичь успеха при помощи новой методики контроля.
 		</p>
-		<div class="frontpic">
-			<span class="left"> <img src="img/frontpic1.jpg" ></span>
-			<span class="right"> <img src="img/frontpic2.jpg" ></span>
-		</div>
 		
 	</div>
 	<div class="clear"></div>
