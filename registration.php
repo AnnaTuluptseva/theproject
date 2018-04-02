@@ -5,6 +5,9 @@
 	<title>Регистрация</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/loginstyles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
+	<script src="js/forms.js" type="text/javascript"></script>	
 </head>
 <body>
 
@@ -19,19 +22,19 @@
 	<div class="content">
 	<section class="container">
     <h1>Регистрация</h1>
-	<form action="" method="post">
-		<p><input type="text" name="email" class="email" value="<?=$fields['email'];?>"  placeholder="email"></p>
-			<div class="error" id="email-error"><?=$errors['email'];?></div>
+	<form action="main.php" method="post" class="registration">
+		<p><input type="text" name="email" class="required email error" value="<?=$fields['email'];?>" placeholder="email"></p>
+		<p>	<label class="error" for="email" generated="true"><?=$errors['email'];?> </lable></p>
 						
-		<p><input type="password" name="password" class="password" value="" placeholder="Password"></p>
-			<div class="error" id="password-error"><?=$errors['password'];?></div>
+		<p><input type="password" name="password" class="required password error" value="" placeholder="Password"></p>
+		<p>	<label class="error" for="password" generated="true"><?=$errors['password'];?></lable></p>
 			
-		<p><input type="password" name="password_again" id="password_again" value="" placeholder="Repeat password"></p>
-			<div class="error" class="password_again-error"><?=$errors['password_again'];?></div>
+		<p><input type="password" name="password_again" class="required password_again error" value="" placeholder="Repeat password"></p>
+		<p>	<label class="error" for="password_again" generated="true"><?=$errors['password_again'];?></lable></p>
 			
 		<p class="submit-1"><input type="submit" name="submit" class="btn-submit" value="Зарегистрироваться"></p>
 		
-      </form>
+     </form>
 	<p class="remember_me "><a href="index.php">На главную страницу</a>.</p>
 	</section>
 		
@@ -40,6 +43,7 @@
 	<?php
 	include_once 'main/footer.php';
 	?>
+
 </div>
 
 </body>
