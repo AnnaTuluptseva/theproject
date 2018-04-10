@@ -1,3 +1,6 @@
+<?php
+include_once('functions/registrate.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,19 +25,23 @@
 	<div class="content">
 	<section class="container">
     <h1>Регистрация</h1>
-	<form action="main.php" method="post" class="registration">
-		<p><input type="text" name="email" class="required email error" value="<?=$fields['email'];?>" placeholder="email"></p>
-		<p>	<label class="error" for="email" generated="true"><?=$errors['email'];?> </lable></p>
+	<form action="" method="post" class="registration">
+		<p><input type="text" name="username" class="required error" placeholder="Username"></p>
+		<p>	<label class="error" for="username" generated="true"></lable></p>
+
+		<p><input type="text" name="email" class="required email error" placeholder="Email"></p>
+		<p>	<label class="error" for="email" generated="true"><?=$errors;?></lable></p>
 						
 		<p><input type="password" name="password" class="required password error" value="" placeholder="Password"></p>
-		<p>	<label class="error" for="password" generated="true"><?=$errors['password'];?></lable></p>
+		<p>	<label class="error" for="password" generated="true"></lable></p>
 			
 		<p><input type="password" name="password_again" class="required password_again error" value="" placeholder="Repeat password"></p>
-		<p>	<label class="error" for="password_again" generated="true"><?=$errors['password_again'];?></lable></p>
+		<p>	<label class="error" for="password_again" generated="true"></lable></p>
 			
-		<p class="submit-1"><input type="submit" name="submit" class="btn-submit" value="Зарегистрироваться"></p>
+		<p class="submit-1"><input type="submit" name="registrate" class="btn-submit" value="Зарегистрироваться"></p>
 		
      </form>
+    <!--<p class="remember_me "><a href="login.php">Вход</a>-->
 	<p class="remember_me "><a href="index.php">На главную страницу</a>.</p>
 	</section>
 		

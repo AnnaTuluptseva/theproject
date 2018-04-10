@@ -39,6 +39,11 @@ p{
 	text-align: justify;
 }
 
+/*Дизайн ошибок*/
+.errormessage {
+	color: #A50D0D;
+	font-size: 1.2em;
+}
 header{
 	position: absolute;	
 	height: 100px;

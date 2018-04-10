@@ -6,6 +6,7 @@
 		<li><a href="contacts.php">Контакты</a></li>
 		</span>
 		<span class="right">
+		<li><a href="functions/exit.php">Выход</a></li>
 		<li><a href="login.php">Войти/Регистрация</a></li>
 		</span>
 	</ul>		
