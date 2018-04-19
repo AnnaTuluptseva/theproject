@@ -11,6 +11,7 @@ include_once('functions/registrate.php');
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
 	<script src="js/forms.js" type="text/javascript"></script>	
+	<script src="js/buttons.js" type="text/javascript"></script>	
 </head>
 <body>
 
@@ -38,7 +39,7 @@ include_once('functions/registrate.php');
 		<p><input type="password" name="password_again" class="required password_again error" value="" placeholder="Repeat password"></p>
 		<p>	<label class="error" for="password_again" generated="true"></lable></p>
 			
-		<p class="submit-1"><input type="submit" name="registrate" class="btn-submit" value="Зарегистрироваться"></p>
+		<p class="submit-1"><input type="submit" name="registrate" class="registrate_btn" value="Зарегистрироваться"></p>
 		
      </form>
     <!--<p class="remember_me "><a href="login.php">Вход</a>-->

@@ -1,0 +1,169 @@
+[Mon Dec 04 14:41:02 2017] [notice] Digest: generating secret for digest authentication ...
+[Mon Dec 04 14:41:02 2017] [notice] Digest: done
+[Mon Dec 04 14:41:02 2017] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 configured -- resuming normal operations
+[Mon Dec 04 15:04:21 2017] [notice] SIGHUP received.  Attempting to restart
+httpd: Could not reliably determine the server's fully qualified domain name, using localhost.localdomain for ServerName
+[Mon Dec 04 15:04:21 2017] [notice] Digest: generating secret for digest authentication ...
+[Mon Dec 04 15:04:21 2017] [notice] Digest: done
+[Mon Dec 04 15:04:21 2017] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 configured -- resuming normal operations
+[Mon Dec 04 15:05:52 2017] [notice] caught SIGTERM, shutting down
+[Mon Dec 04 15:05:52 2017] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Dec 04 15:05:52 2017] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Dec 04 15:05:52 2017] [notice] Digest: generating secret for digest authentication ...
+[Mon Dec 04 15:05:52 2017] [notice] Digest: done
+[Mon Dec 04 15:05:52 2017] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 configured -- resuming normal operations
+[Mon Dec 04 15:07:20 2017] [notice] caught SIGTERM, shutting down
+[Mon Dec 04 15:07:20 2017] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Dec 04 15:07:20 2017] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Dec 04 15:07:20 2017] [notice] Digest: generating secret for digest authentication ...
+[Mon Dec 04 15:07:20 2017] [notice] Digest: done
+[Mon Dec 04 15:07:20 2017] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 configured -- resuming normal operations
+[Mon Dec 04 15:07:45 2017] [error] [client 192.168.0.101] client denied by server configuration: /usr/share/phpPgAdmin
+[Mon Dec 04 15:07:50 2017] [error] [client 192.168.0.101] File does not exist: /var/www/html/favicon.ico, referer: http://192.168.0.107/phpPgAdmin
+[Tue Dec 05 13:50:03 2017] [notice] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Tue Dec 05 13:50:03 2017] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Tue Dec 05 13:50:03 2017] [notice] Digest: generating secret for digest authentication ...
+[Tue Dec 05 13:50:03 2017] [notice] Digest: done
+[Tue Dec 05 13:50:04 2017] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 configured -- resuming normal operations
+[Tue Dec 05 13:50:08 2017] [error] [client 192.168.0.102] File does not exist: /var/www/html/favicon.ico, referer: http://192.168.0.107/
+[Tue Dec 05 15:40:57 2017] [error] [client 192.168.0.102] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/
+[Tue Dec 05 15:41:02 2017] [error] [client 192.168.0.102] PHP Notice:  Undefined index: email in /var/www/html/greek/registration.php on line 73, referer: http://192.168.0.107/greek/
+[Tue Dec 05 15:41:02 2017] [error] [client 192.168.0.102] PHP Notice:  Undefined index: password in /var/www/html/greek/registration.php on line 76, referer: http://192.168.0.107/greek/
+[Tue Dec 05 15:41:02 2017] [error] [client 192.168.0.102] PHP Notice:  Undefined index: password_again in /var/www/html/greek/registration.php on line 79, referer: http://192.168.0.107/greek/
+[Tue Dec 05 15:43:15 2017] [error] [client 192.168.0.102] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/
+[Tue Dec 05 15:43:17 2017] [error] [client 192.168.0.102] PHP Notice:  Undefined index: email in /var/www/html/greek/registration.php on line 73, referer: http://192.168.0.107/greek/
+[Tue Dec 05 15:43:17 2017] [error] [client 192.168.0.102] PHP Notice:  Undefined index: password in /var/www/html/greek/registration.php on line 76, referer: http://192.168.0.107/greek/
+[Tue Dec 05 15:43:17 2017] [error] [client 192.168.0.102] PHP Notice:  Undefined index: password_again in /var/www/html/greek/registration.php on line 79, referer: http://192.168.0.107/greek/
+[Tue Dec 05 15:43:35 2017] [error] [client 192.168.0.102] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Permission denied\n\tIs the server running on host "localhost" (::1) and accepting\n\tTCP/IP connections on port 5432?\ncould not connect to server: Permission denied\n\tIs the server running on host "localhost" (127.0.0.1) and accepting\n\tTCP/IP connections on port 5432? in /var/www/html/greek/functions.php on line 51, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 15:43:35 2017] [error] [client 192.168.0.102] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 54, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 15:43:35 2017] [error] [client 192.168.0.102] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, null given in /var/www/html/greek/functions.php on line 56, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 15:43:35 2017] [error] [client 192.168.0.102] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 62, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 15:43:35 2017] [error] [client 192.168.0.102] PHP Warning:  pg_close(): No PostgreSQL link opened yet in /var/www/html/greek/functions.php on line 64, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 15:43:35 2017] [error] [client 192.168.0.102] PHP Notice:  Undefined variable: message in /var/www/html/greek/registration.php on line 46, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 15:43:39 2017] [error] [client 192.168.0.102] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Tue Dec 05 15:49:24 2017] [error] [client 192.168.0.102] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Tue Dec 05 15:49:25 2017] [error] [client 192.168.0.102] PHP Notice:  Undefined index: email in /var/www/html/greek/registration.php on line 73, referer: http://192.168.0.107/greek/index.html
+[Tue Dec 05 15:49:25 2017] [error] [client 192.168.0.102] PHP Notice:  Undefined index: password in /var/www/html/greek/registration.php on line 76, referer: http://192.168.0.107/greek/index.html
+[Tue Dec 05 15:49:25 2017] [error] [client 192.168.0.102] PHP Notice:  Undefined index: password_again in /var/www/html/greek/registration.php on line 79, referer: http://192.168.0.107/greek/index.html
+[Tue Dec 05 15:49:48 2017] [error] [client 192.168.0.102] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Permission denied\n\tIs the server running on host "localhost" (::1) and accepting\n\tTCP/IP connections on port 5432?\ncould not connect to server: Permission denied\n\tIs the server running on host "localhost" (127.0.0.1) and accepting\n\tTCP/IP connections on port 5432? in /var/www/html/greek/functions.php on line 51, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 15:49:48 2017] [error] [client 192.168.0.102] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 54, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 15:49:48 2017] [error] [client 192.168.0.102] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, null given in /var/www/html/greek/functions.php on line 56, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 15:49:48 2017] [error] [client 192.168.0.102] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 62, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 15:49:48 2017] [error] [client 192.168.0.102] PHP Warning:  pg_close(): No PostgreSQL link opened yet in /var/www/html/greek/functions.php on line 64, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 15:49:48 2017] [error] [client 192.168.0.102] PHP Notice:  Undefined variable: message in /var/www/html/greek/registration.php on line 46, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 15:49:53 2017] [error] [client 192.168.0.102] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Tue Dec 05 15:59:48 2017] [error] [client 192.168.0.102] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Tue Dec 05 15:59:49 2017] [error] [client 192.168.0.102] PHP Notice:  Undefined index: email in /var/www/html/greek/registration.php on line 73, referer: http://192.168.0.107/greek/index.html
+[Tue Dec 05 15:59:49 2017] [error] [client 192.168.0.102] PHP Notice:  Undefined index: password in /var/www/html/greek/registration.php on line 76, referer: http://192.168.0.107/greek/index.html
+[Tue Dec 05 15:59:49 2017] [error] [client 192.168.0.102] PHP Notice:  Undefined index: password_again in /var/www/html/greek/registration.php on line 79, referer: http://192.168.0.107/greek/index.html
+[Tue Dec 05 16:00:06 2017] [error] [client 192.168.0.102] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Permission denied\n\tIs the server running on host "localhost" (::1) and accepting\n\tTCP/IP connections on port 5432?\ncould not connect to server: Permission denied\n\tIs the server running on host "localhost" (127.0.0.1) and accepting\n\tTCP/IP connections on port 5432? in /var/www/html/greek/functions.php on line 52, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 16:00:06 2017] [error] [client 192.168.0.102] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 55, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 16:00:06 2017] [error] [client 192.168.0.102] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, null given in /var/www/html/greek/functions.php on line 57, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 16:00:06 2017] [error] [client 192.168.0.102] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 63, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 16:00:06 2017] [error] [client 192.168.0.102] PHP Warning:  pg_close(): No PostgreSQL link opened yet in /var/www/html/greek/functions.php on line 65, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 16:00:06 2017] [error] [client 192.168.0.102] PHP Notice:  Undefined variable: message in /var/www/html/greek/registration.php on line 46, referer: http://192.168.0.107/greek/registration.php
+[Tue Dec 05 16:00:11 2017] [error] [client 192.168.0.102] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 13:29:19 2017] [notice] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Dec 06 13:29:19 2017] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Dec 06 13:29:19 2017] [notice] Digest: generating secret for digest authentication ...
+[Wed Dec 06 13:29:19 2017] [notice] Digest: done
+[Wed Dec 06 13:29:21 2017] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 configured -- resuming normal operations
+[Wed Dec 06 14:30:23 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/
+[Wed Dec 06 14:30:29 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: email in /var/www/html/greek/registration.php on line 73, referer: http://192.168.0.107/greek/
+[Wed Dec 06 14:30:29 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: password in /var/www/html/greek/registration.php on line 76, referer: http://192.168.0.107/greek/
+[Wed Dec 06 14:30:29 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: password_again in /var/www/html/greek/registration.php on line 79, referer: http://192.168.0.107/greek/
+[Wed Dec 06 14:30:45 2017] [error] [client 192.168.0.100] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Permission denied\n\tIs the server running on host "localhost" (::1) and accepting\n\tTCP/IP connections on port 5432?\ncould not connect to server: Permission denied\n\tIs the server running on host "localhost" (127.0.0.1) and accepting\n\tTCP/IP connections on port 5432? in /var/www/html/greek/functions.php on line 52, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:30:45 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 55, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:30:45 2017] [error] [client 192.168.0.100] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, null given in /var/www/html/greek/functions.php on line 57, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:30:45 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 63, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:30:45 2017] [error] [client 192.168.0.100] PHP Warning:  pg_close(): No PostgreSQL link opened yet in /var/www/html/greek/functions.php on line 65, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:30:45 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined variable: message in /var/www/html/greek/registration.php on line 46, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:30:49 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 14:38:54 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 14:38:55 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: email in /var/www/html/greek/registration.php on line 73, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 14:38:55 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: password in /var/www/html/greek/registration.php on line 76, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 14:38:55 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: password_again in /var/www/html/greek/registration.php on line 79, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 14:39:21 2017] [error] [client 192.168.0.100] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Permission denied\n\tIs the server running on host "localhost" (::1) and accepting\n\tTCP/IP connections on port 5432?\ncould not connect to server: Permission denied\n\tIs the server running on host "localhost" (127.0.0.1) and accepting\n\tTCP/IP connections on port 5432? in /var/www/html/greek/functions.php on line 52, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:39:21 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 55, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:39:21 2017] [error] [client 192.168.0.100] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, null given in /var/www/html/greek/functions.php on line 57, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:39:21 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 63, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:39:21 2017] [error] [client 192.168.0.100] PHP Warning:  pg_close(): No PostgreSQL link opened yet in /var/www/html/greek/functions.php on line 65, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:39:21 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined variable: message in /var/www/html/greek/registration.php on line 46, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:39:25 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 14:49:55 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 14:49:56 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: email in /var/www/html/greek/registration.php on line 73, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 14:49:56 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: password in /var/www/html/greek/registration.php on line 76, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 14:49:56 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: password_again in /var/www/html/greek/registration.php on line 79, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 14:50:08 2017] [error] [client 192.168.0.100] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Permission denied\n\tIs the server running on host "127.0.0.1" and accepting\n\tTCP/IP connections on port 5432? in /var/www/html/greek/functions.php on line 52, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:50:08 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 55, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:50:08 2017] [error] [client 192.168.0.100] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, null given in /var/www/html/greek/functions.php on line 57, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:50:08 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 63, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:50:08 2017] [error] [client 192.168.0.100] PHP Warning:  pg_close(): No PostgreSQL link opened yet in /var/www/html/greek/functions.php on line 65, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:50:08 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined variable: message in /var/www/html/greek/registration.php on line 46, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 14:50:12 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 15:38:36 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 15:38:40 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: email in /var/www/html/greek/registration.php on line 73, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 15:38:40 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: password in /var/www/html/greek/registration.php on line 76, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 15:38:40 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: password_again in /var/www/html/greek/registration.php on line 79, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 15:39:01 2017] [error] [client 192.168.0.100] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Permission denied\n\tIs the server running on host "127.0.0.1" and accepting\n\tTCP/IP connections on port 5432? in /var/www/html/greek/functions.php on line 52, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:39:01 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 55, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:39:01 2017] [error] [client 192.168.0.100] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, null given in /var/www/html/greek/functions.php on line 57, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:39:01 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 63, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:39:01 2017] [error] [client 192.168.0.100] PHP Warning:  pg_close(): No PostgreSQL link opened yet in /var/www/html/greek/functions.php on line 65, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:39:01 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined variable: message in /var/www/html/greek/registration.php on line 46, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:39:05 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 15:58:23 2017] [notice] caught SIGTERM, shutting down
+[Wed Dec 06 15:58:23 2017] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Dec 06 15:58:23 2017] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Dec 06 15:58:23 2017] [notice] Digest: generating secret for digest authentication ...
+[Wed Dec 06 15:58:23 2017] [notice] Digest: done
+[Wed Dec 06 15:58:23 2017] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 configured -- resuming normal operations
+[Wed Dec 06 15:58:36 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 15:58:38 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 15:58:40 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: email in /var/www/html/greek/registration.php on line 73, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 15:58:40 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: password in /var/www/html/greek/registration.php on line 76, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 15:58:40 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: password_again in /var/www/html/greek/registration.php on line 79, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 15:58:48 2017] [error] [client 192.168.0.100] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Permission denied\n\tIs the server running on host "127.0.0.1" and accepting\n\tTCP/IP connections on port 5432? in /var/www/html/greek/functions.php on line 52, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:58:48 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 55, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:58:48 2017] [error] [client 192.168.0.100] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, null given in /var/www/html/greek/functions.php on line 57, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:58:48 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 63, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:58:48 2017] [error] [client 192.168.0.100] PHP Warning:  pg_close(): No PostgreSQL link opened yet in /var/www/html/greek/functions.php on line 65, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:58:48 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined variable: message in /var/www/html/greek/registration.php on line 46, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:58:52 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 15:59:48 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: email in /var/www/html/greek/registration.php on line 73, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 15:59:48 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: password in /var/www/html/greek/registration.php on line 76, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 15:59:48 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: password_again in /var/www/html/greek/registration.php on line 79, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 15:59:58 2017] [error] [client 192.168.0.100] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Permission denied\n\tIs the server running on host "127.0.0.1" and accepting\n\tTCP/IP connections on port 5432? in /var/www/html/greek/functions.php on line 52, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:59:58 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 55, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:59:58 2017] [error] [client 192.168.0.100] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, null given in /var/www/html/greek/functions.php on line 57, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:59:58 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 63, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:59:58 2017] [error] [client 192.168.0.100] PHP Warning:  pg_close(): No PostgreSQL link opened yet in /var/www/html/greek/functions.php on line 65, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 15:59:58 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined variable: message in /var/www/html/greek/registration.php on line 46, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 16:00:02 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 16:01:31 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 16:01:33 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: email in /var/www/html/greek/registration.php on line 73, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 16:01:33 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: password in /var/www/html/greek/registration.php on line 76, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 16:01:33 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: password_again in /var/www/html/greek/registration.php on line 79, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 16:01:41 2017] [error] [client 192.168.0.100] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Permission denied\n\tIs the server running on host "127.0.0.1" and accepting\n\tTCP/IP connections on port 5432? in /var/www/html/greek/functions.php on line 52, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 16:01:41 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 55, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 16:01:41 2017] [error] [client 192.168.0.100] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, null given in /var/www/html/greek/functions.php on line 57, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 16:01:41 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 63, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 16:01:41 2017] [error] [client 192.168.0.100] PHP Warning:  pg_close(): No PostgreSQL link opened yet in /var/www/html/greek/functions.php on line 65, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 16:01:41 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined variable: message in /var/www/html/greek/registration.php on line 46, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 16:01:46 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 16:03:36 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 16:03:38 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: email in /var/www/html/greek/registration.php on line 73, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 16:03:38 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: password in /var/www/html/greek/registration.php on line 76, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 16:03:38 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined index: password_again in /var/www/html/greek/registration.php on line 79, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 16:03:46 2017] [error] [client 192.168.0.100] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Permission denied\n\tIs the server running on host "127.0.0.1" and accepting\n\tTCP/IP connections on port 5432? in /var/www/html/greek/functions.php on line 52, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 16:03:46 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 55, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 16:03:46 2017] [error] [client 192.168.0.100] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, null given in /var/www/html/greek/functions.php on line 57, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 16:03:46 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 63, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 16:03:46 2017] [error] [client 192.168.0.100] PHP Warning:  pg_close(): No PostgreSQL link opened yet in /var/www/html/greek/functions.php on line 65, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 16:03:46 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined variable: message in /var/www/html/greek/registration.php on line 46, referer: http://192.168.0.107/greek/registration.php
+[Wed Dec 06 16:03:50 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/greek/jumbotron.css, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 16:04:00 2017] [error] [client 192.168.0.100] PHP Notice:  Undefined variable: errors in /var/www/html/greek/login.php on line 26, referer: http://192.168.0.107/greek/index.html
+[Wed Dec 06 16:04:25 2017] [error] [client 192.168.0.100] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Permission denied\n\tIs the server running on host "127.0.0.1" and accepting\n\tTCP/IP connections on port 5432? in /var/www/html/greek/functions.php on line 86, referer: http://192.168.0.107/greek/login.php
+[Wed Dec 06 16:04:25 2017] [error] [client 192.168.0.100] PHP Warning:  pg_query() expects parameter 1 to be resource, boolean given in /var/www/html/greek/functions.php on line 88, referer: http://192.168.0.107/greek/login.php
+[Wed Dec 06 16:04:25 2017] [error] [client 192.168.0.100] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, null given in /var/www/html/greek/functions.php on line 90, referer: http://192.168.0.107/greek/login.php
+[Wed Dec 06 16:04:25 2017] [error] [client 192.168.0.100] File does not exist: /var/www/html/favicon.ico, referer: http://192.168.0.107/greek/login.php

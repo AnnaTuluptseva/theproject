@@ -39,11 +39,21 @@ p{
 	text-align: justify;
 }
 
+/*Запрет выделения текста*/
+.noselect {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
 /*Дизайн ошибок*/
 .errormessage {
 	color: #A50D0D;
 	font-size: 1.2em;
 }
+
 header{
 	position: absolute;	
 	height: 100px;
@@ -78,17 +88,57 @@ header h1{
 	margin-right: 10px;
 }
 
-/*.navigation ul{	
-
-}*/
-li{
+.navigation li{
 	float: left;
 	list-style-type: none;
 	padding: 10px 20px;
 }
-.navigation a{
+.navigation a, label{
 	font-size: 1.2em;
 	color: #e8f7ef;
+}
+
+/*Навигация пользователя*/
+.user_navigation{
+	position: fixed;	
+	float: left;
+	/*background-color: #2a4837;*/
+	width: 20%;
+	height: 100%;	
+}
+.user_navigation ul{
+	padding-right: 8%;
+	border-right: 5px solid;
+	border-color: #2a4837;
+}
+.user_navigation li{
+	list-style-type: none;
+	/*background: #e8f7ef;*/
+	background-image: url(../img/links.png);
+	margin: 5% 0%;
+	padding: 10% 20px;
+	border: 5px double;
+	border-color: #2a4837;
+	transition: all.6s ease;
+	-moz-transition all.6s ease;
+	-webkit-transition all.6s ease;
+	-ms-transition all.6s ease;
+}
+
+.user_navigation div, label{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #2a4837;
+}
+/*.user_navigation a:hover{
+	text-decoration: none;
+}*/
+
+.user_content{
+	float: left;
+	margin-left: 22%;
+	width: 78%;
+	height: 100%;	
 }
 
 
@@ -101,16 +151,52 @@ li{
     height: 100%; /* для IE6, т.к. он понимает height, как min-height */
 }
 .content{	
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 1%;
+	padding-right: 1%;
 	margin-top: 150px;
 	margin-bottom: 52px;	
 	padding-top: 20px;
 	padding-bottom: 20px;
-   	width: 90%;
+   	width: 98%;
    	min-height: 100%;
    	height: 100%;
    	float: left;   	
+}
+
+/*Главная страница сайта*/
+.firstpage{
+	display: none;
+}
+/*О сайте*/
+.aboutus{
+	display: none;
+}
+.aboutus h1{
+	text-align: center;
+}
+.aboutus p{
+	margin: 10px 0;
+	font-size: 1.1em;	
+}
+.aboutus span{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+/*Контакты*/
+.contacts{
+	display: none;
+}
+.contacts h1{
+	text-align: center;
+}
+.contacts p{
+	margin: 10px 0;
+}
+
+/*Ошибки*/
+.errorblock{
+	display: none;
 }
 
 

@@ -28,7 +28,7 @@ else
  		//удаляем лишние пробелы
     	$email = trim($email);
     	$password = trim($password);
-    	$result = mysql_query("SELECT id_u, email, password, salt FROM users WHERE email='$email'", $db) or die("checkPass fatal error: ".mysql_error());
+    	$result = mysql_query("SELECT id_u, username, email, password, salt, online FROM users WHERE email='$email'", $db) or die("checkPass fatal error: ".mysql_error());
     	$userdata = mysql_fetch_assoc($result);
     	//echo $userdata[id_u];
     	if ($result) $row = mysql_fetch_array($result);
@@ -46,10 +46,19 @@ else
     			return $error2;
     		}
     		else{
-    			$_SESSION['id_u']= $userdata['id_u'];
-    			$_SESSION['email']= $userdata['email'];
-    			$_SESSION['password']= $userdata['password'];
-    			header("Location: /../index.php", TRUE, 301);
+                $online_user = mysql_query ("UPDATE users SET online=1 WHERE id_u='".$userdata['id_u']."'");
+                if($online_user){
+                    $_SESSION['id_u']= $userdata['id_u'];
+                    $_SESSION['username']= $userdata['username'];
+                    $_SESSION['email']= $userdata['email'];
+                    $_SESSION['password']= $userdata['password'];
+                    $_SESSION['online'] = 1;
+                    header("Location: /../index.php", TRUE, 301);
+                } else{
+                    header("Location: /../errors/autoerror.php", TRUE, 301);
+                }
+    			
+    			
     			//echo 'Авторизация прошла успешно!';
     		}
 		}
