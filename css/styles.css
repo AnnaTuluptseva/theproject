@@ -98,6 +98,11 @@ header h1{
 	color: #e8f7ef;
 }
 
+.logout_link, .login_link{
+	display: none;
+}
+
+
 /*Навигация пользователя*/
 .user_navigation{
 	position: fixed;	
@@ -125,7 +130,7 @@ header h1{
 	-ms-transition all.6s ease;
 }
 
-.user_navigation div, label{
+.user_navigation div{
 	font-size: 1.2em;
 	font-weight: bold;
 	color: #2a4837;
@@ -167,6 +172,7 @@ header h1{
 .firstpage{
 	display: none;
 }
+
 /*О сайте*/
 .aboutus{
 	display: none;

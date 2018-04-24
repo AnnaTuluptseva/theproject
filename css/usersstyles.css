@@ -2,6 +2,26 @@
 .user_content .thegoals{
 	display: none;
 }
+.user_content div.newgoal{
+	display: none;
+}
+.user_content div.newgoal form{
+	background-image: url(../img/links.png);
+	border: 2px solid;
+	border-color: #2a4837;
+	box-shadow: 3px 3px 3px rgba(19,23,25,.75);
+}
+.user_content div.newgoal p{
+	margin: 20px 0px;	
+	margin-left: 25%;
+	width: 50%;	
+}
+.user_content div.newgoal input{
+	width: 100%;	
+}
+.user_content p .error{
+	color: rgb(179, 16, 16);
+}
 .user_content .thetests{
 	display: none;
 }
@@ -9,9 +29,51 @@
 	display: none;
 }
 
+.thecabinet h1{
+	border-bottom: 1px solid;
+}
+
 .thecabinet p{
 	margin: 20px 0px;
 }
 .thecabinet span, input{
 	padding: 5px;
+}
+
+.user_content .thegoals div{
+	width: 100%;
+	float: left;
+	margin-bottom: 10px; 
+	color: #2a4837;
+}
+
+.thegoals span{
+	height: 200px;
+	width: 200px;
+	float: left;	
+	margin: 10px 20px;
+	padding: 5px;
+	background-color: #e8f7ef;	
+	border: 2px solid;
+	border-color: #2a4837;
+	box-shadow: 3px 3px 3px rgba(19,23,25,.75);
+	transition: all.6s ease;
+	-moz-transition all.6s ease;
+	-webkit-transition all.6s ease;
+	-ms-transition all.6s ease;
+}
+.thegoals span p{
+	text-indent: 0em;
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 40%;
+}
+.thegoals span .goaldate{
+	margin-top: 1%;
+	font-size: 0.8em;
+}
+
+.usertopic{
+	font-size: 1.2em;
+	font-weight: bold;
 }

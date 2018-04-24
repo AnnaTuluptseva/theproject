@@ -1,64 +1,26 @@
 $(function(){
 	
-	/*Вкладки пользователя*/
-	/*var usertabs = 0;
-	$('.firstpage_link').on('click', chosen_link(0));
-	$('.aboutus_link').on('click', chosen_link(1));
-	$('.contacts_link').on('click', chosen_link(2));
-
-	function chosen_link(value){
-		usertabs = value;
-		alert(usertabs);
-	}
-	//alert (usertabs);
-	switch (usertabs){
-		case 0:
-		alert ('Im here');
-		$('.firstpage').css("display","run-in");
-		$('.aboutus').css("display","none");
-		$('.contacts').css("display","none");
-		$('.error').css("display","none");
-		break;
-		case 1:
-		alert ('Im 1');
-		$('.aboutus').css("display","run-in");
-		$('.contacts').css("display","none");
-		$('.firstpage').css("display","none");
-		$('.error').css("display","none");
-		break;
-		case 2:
-		$('.contacts').css("display","run-in");
-		$('.aboutus').css("display","none");
-		$('.firstpage').css("display","none");
-		$('.error').css("display","none");
-		break;
-		default:
-		$('.error').css("display","run-in");
-		$('.contacts').css("display","none");
-		$('.aboutus').css("display","none");
-		$('.firstpage').css("display","none");
-		break;
-	}*/
 	
-
-	/*Поля входа и выхода в систему*/
-	var online = $('.onlinemsg').text();
-	/*$(document).on('click','.logout_btn', function(){
-		online = false;
-	});*/
+	
+	var online = $('.onlinemsg').text(); //определение вошол ли пользователь в систему
+	//alert(online);
+	//Ссылки входа и выхода в систему
 	if(online === ''){
-		$('.login_link').css("display","block");
 		$('.logout_link').css("display","none");
 		$('.userpage').css("display","none");
+		$('.login_link').css("display","block");
 		$('.firstpage').css("display","block");
+		
 
 	}else{
-		$('.login_link').css("display","none");
-		$('.logout_link').css("display","block");
+		$('.login_link').css("display","none");		
 		$('.firstpage').css("display","none");
+		$('.logout_link').css("display","block");
 		$('.userpage').css("display","block");
 	}
 
+	//Навигация пользователя
+	//Отображение ссылок навигации пользователя
 	$('.user_navigation li').hover(function(){
 			$(this).css("background-image","url('/../img/linkshover.png')");
 			$(this).children("div").css("color","#adedcb");
@@ -70,7 +32,7 @@ $(function(){
 			$(this).css('border-color','#2a4837');
 		});
  
-    /* Не забыть добавить условие ЕСЛИ ONLINE*/
+    // Не забыть добавить условие ЕСЛИ ONLINE
 
     /*var all_links =  document.querySelectorAll(".user_content div");
     alert(all_links);
@@ -87,6 +49,7 @@ $(function(){
 	//var linksObject = $('.user_content div').attr('class');
 	//alert(linksObject);
 
+	//Функция для выбора ссылки и отображения её содержимого
 	function chosenLink(){
 		var class_name = $(this).attr('class');
 		//alert(class_name);
@@ -128,12 +91,33 @@ $(function(){
 
 	$(document).on('click','.user_navigation li', chosenLink);
 
-	/*Окно thecabinet*/
-
+	//Окно thecabinet
 	$( ".thecabinet input" ).prop( "readonly", true );
 
-
-
-
-
+	//Окно Goals
+	$('.thegoals span').hover(function(){
+			$(this).css('border-color','#adedcb');
+			$(this).css('box-shadow','3px 3px 3px rgba(116, 204, 156, .75)');
+			//$(this).attr('title', новое_значение);
+		},
+		function(){
+			$(this).css('border-color','#2a4837');
+			$(this).css('box-shadow','3px 3px 3px rgba(19,23,25,.75)');
+		});
+	//завешна ли поставленная цель?
+	$(document).on('click','.futuregoal', function(){
+		var isAchived = confirm("Цель достигнута?");
+		var idgoal = $(this).attr('id');		
+		//alert(idgoal);
+		if(isAchived)
+			document.location.href = "http://diplom/functions/achivedgoal.php?idgoal="+idgoal;
+	});
+	//создание новой цели
+	//$( ".newgoal input" ).prop( "readonly", true );
+	$(document).on('click','span.newgoal', function(){
+		//alert('Hello!');
+		$('.user_content .thegoals').css("display","none");
+		$('.user_content .newgoal').css("display","block");
+		//$( ".newgoal input" ).prop( "readonly", false );
+	});
 });

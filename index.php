@@ -11,14 +11,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/css; charset=utf-8" />
 	<title>Главная</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/usersstyles.css">
-	<link rel="stylesheet" type="text/css" href="/../css/loginstyles.css">
+	<link rel="stylesheet" type="text/css" href="css/loginstyles.css">
 	<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>	
+	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
 	<script src="js/buttons.js" type="text/javascript"></script>	
+	<script src="js/forms.js" type="text/javascript"></script>	
 </head>
 <body>
 
@@ -55,11 +57,10 @@
 		<div class="userpage">
 			<div class="user_navigation">
 				<ul>
-					<!-- id в навигации пользователя могут быть только числа!!! -->
-					<li class="thecabinet"><div id="1" class="noselect">Личный кабинет</div></li>
-					<li class="thegoals"><div id="2" class="noselect">Цели</div></li>
-					<li class="thetests"><div id="3" class="noselect">Тестирование</div></li>
-					<li class="thediagrams"><div id="4" class="noselect">Диаграмы успеха</div></li>
+					<li class="thecabinet"><div class="noselect">Личный кабинет</div></li>
+					<li class="thegoals"><div class="noselect">Цели</div></li>
+					<li class="thetests"><div class="noselect">Тестирование</div></li>
+					<li class="thediagrams"><div class="noselect">Диаграмы успеха</div></li>
 				</ul>	
 			</div>	
 			<div class="user_content">
@@ -69,8 +70,44 @@
 					?>
 				</div>
 				<div class="thegoals">
-					thegoals
+					<?php 
+						include('functions/getgoals.php');
+					?>
+					<div>
+						<p class='usertopic'>Поставить новую цель:</p>
+						<span class='newgoal'>
+							<p>
+								Новая цель
+							</p>
+						</span>
+					</div>
+					<script type="text/javascript">
+						var goals = '<?php echo $row[2];?>';
+						var numg = goals.length;
+						//alert(numg); 
+						for (var i = 0; i < numg; i++) {
+							//document.write(i +': ' + goals[i]);
+						}
+						//alert(goals[0]);
+					</script>
 				</div>	
+				<div class="newgoal">
+						<h1>Новая цель</h1>
+						<form action="functions/addgoal.php" class="addgoal" method="post">
+							<p>Наименование цели:</p>
+							<p><input type="text" name="goalname" class="required error" placeholder=""></p>
+							<p>	<label class="error" for="goalname" generated="true"></lable></p>
+							<p>Краткий комментарий:</p>
+							<p><input type="text" name="goaltext" class="required error" placeholder=""></p>
+							<p>	<label class="error" for="goaltext" generated="true"></lable></p>
+							<p>Выберите дату, к которой цель должна быть достигнута:</p>
+							<p><input type="datetime" name="goaldeadline" class="required error" value="" placeholder="YYYY.MM.DD"></p>
+							<p>	<label class="error" for="goaldeadline" generated="true"></lable></p>
+										
+							<p><input type="submit" name="addgoal" class="newgoal_btn" value="Добавить цель"></p>
+		
+    					 </form>
+				</div>
 				<div class="thetests">
 					thetests
 				</div>	
