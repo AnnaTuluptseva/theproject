@@ -59,6 +59,7 @@ $(function(){
 				$('.user_content .thegoals').css("display","none");
 				$('.user_content .thetests').css("display","none");
 				$('.user_content .thediagrams').css("display","none");
+				$('.user_content div.newgoal').css("display","none");
 				$('.user_content .thecabinet').css("display","block");
 				break;
 			case 'thegoals':
@@ -66,6 +67,7 @@ $(function(){
 				$('.user_content .thecabinet').css("display","none");
 				$('.user_content .thetests').css("display","none");
 				$('.user_content .thediagrams').css("display","none");
+				$('.user_content div.newgoal').css("display","none");
 				$('.user_content .thegoals').css("display","block");
 				break;
 			case 'thetests':	
@@ -73,6 +75,7 @@ $(function(){
 				$('.user_content .thegoals').css("display","none");
 				$('.user_content .thecabinet').css("display","none");
 				$('.user_content .thediagrams').css("display","none");
+				$('.user_content div.newgoal').css("display","none");
 				$('.user_content .thetests').css("display","block");
 				break;
 			case 'thediagrams':	
@@ -80,6 +83,7 @@ $(function(){
 				$('.user_content .thegoals').css("display","none");
 				$('.user_content .thetests').css("display","none");
 				$('.user_content .thecabinet').css("display","none");
+				$('.user_content div.newgoal').css("display","none");
 				$('.user_content .thediagrams').css("display","block");
 				break;
 			default:
@@ -119,5 +123,13 @@ $(function(){
 		$('.user_content .thegoals').css("display","none");
 		$('.user_content .newgoal').css("display","block");
 		//$( ".newgoal input" ).prop( "readonly", false );
+	});
+
+
+	// Задния к тесту
+
+	$(document).on('click','.mytest', function(){
+		alert('Hello!');
+		document.location.href = "http://diplom/functions/mygoa.php";
 	});
 });

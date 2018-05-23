@@ -69,7 +69,7 @@
 						include_once('main/thecabinet.php');
 					?>
 				</div>
-				<div class="thegoals">
+				<div class="thegoals pickone">
 					<?php 
 						include('functions/getgoals.php');
 					?>
@@ -108,11 +108,15 @@
 		
     					 </form>
 				</div>
-				<div class="thetests">
-					thetests
+				<div class="thetests pickone">
+					<?php 
+						include('functions/gettests.php');
+					?>
 				</div>	
-				<div class="thediagrams">
-					thediagrams
+				<div class="thediagrams">					
+					<div><a href="goaldiagram.php">Цели</a></div>
+					<div><a href="testdiagram.php">Тестирование</a></div>
+					<div><a href="alldiagram.php">Общее</a></div>
 				</div>			
 			</div>
 		</div>

@@ -40,14 +40,16 @@
 	padding: 5px;
 }
 
-.user_content .thegoals div{
+/*Окно целей и тестов*/
+
+.user_content .pickone div{
 	width: 100%;
 	float: left;
 	margin-bottom: 10px; 
 	color: #2a4837;
 }
 
-.thegoals span{
+.pickone span{
 	height: 200px;
 	width: 200px;
 	float: left;	
@@ -62,13 +64,13 @@
 	-webkit-transition all.6s ease;
 	-ms-transition all.6s ease;
 }
-.thegoals span p{
+.pickone span p{
 	text-indent: 0em;
 	text-align: center;
 	font-size: 1.5em;
 	margin-top: 40%;
 }
-.thegoals span .goaldate{
+.pickone span .spandates{
 	margin-top: 1%;
 	font-size: 0.8em;
 }
@@ -76,4 +78,48 @@
 .usertopic{
 	font-size: 1.2em;
 	font-weight: bold;
+}
+
+/*Окно  тестов*/
+
+
+/*Диаграммы*/
+
+div.thediagrams div {
+	width: 100%;
+	margin: 5% 0px;
+	text-align: center;
+}
+.thediagrams div a{
+	font-size: 1.5em;
+	color: #2a4837;
+}
+
+.diagram {
+	width: 100%;
+	text-align: center;	
+}
+.diagram a{
+	color: #2a4837;
+}
+.diagram div{
+	margin-bottom: 30px;
+}
+.diagram #columnchart_material{
+	margin-top: 20px;
+	margin-left: 10%;
+	height: 500px;
+	width: 80%;
+	border: 2px solid;
+	border-color: #2a4837;
+	box-shadow: 3px 3px 3px rgba(19,23,25,.75);	
+}
+.diagram .piechart{
+	margin-top: 20px;
+	margin-left: 10%;
+	height: 500px;
+	width: 80%;
+	border: 2px solid;
+	border-color: #2a4837;
+	box-shadow: 3px 3px 3px rgba(19,23,25,.75);	
 }

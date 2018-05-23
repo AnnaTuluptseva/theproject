@@ -22,7 +22,7 @@
 	padding: 0px 10px;
 	text-align: center;
 }
-.container p .error{
+.container p label.error{
 	color: rgb(179, 16, 16);
 }
 
